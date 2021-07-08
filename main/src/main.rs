@@ -14,9 +14,9 @@ fn main() {
     println!("Total value: {}", a1 + a2);
 
     if a1 + a2 > 7 {
-        println!("You won!");
+        println!("{} won!", s);
     }
     else {
-        println!("You lost");
+        println!("{} lost", s);
     }
 }
